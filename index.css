@@ -57,3 +57,23 @@ ul li span {
     margin-bottom:1em;
     color: white;
 }
+
+media only screen and (max-width: 500px) {
+    
+    body {
+        grid-template-areas: 
+            "header"
+            "footer"
+            "body";
+    }
+
+    ul, .container {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+
+    .container {
+        text-align:center;
+    }
+    
+}
