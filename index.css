@@ -13,6 +13,7 @@ a {
 }
 img { 
     width:150px;
+    justify-self:center;
 }
 header {
     background:#FFFFFF;
@@ -20,6 +21,8 @@ header {
 }
 
 .container {
+    display:grid;
+    grid-template-columns: 66% auto;
     padding: 4em 1em;
 }
 
@@ -28,7 +31,11 @@ footer {
 }
 
 ul {
+    display:grid;
+    list-style-type:none;
     margin:0;padding:0;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
 }
 ul li {
     padding: 2em;
