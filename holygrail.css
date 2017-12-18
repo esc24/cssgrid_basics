@@ -19,12 +19,13 @@
 
 header {
   grid-area: header;
-  background:#FFFFFF;
+  background: #FFFFFF;
 }
   
 nav {
   grid-area: nav;
   margin-left:  0.5rem;
+  background: #FF9933
 }
 
 main {
