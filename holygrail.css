@@ -32,6 +32,23 @@ nav {
   border-color: black;
 }
 
+nav a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+nav a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
 main {
   grid-area: content;
   background: #CC6600;
