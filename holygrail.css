@@ -1,10 +1,14 @@
 .container {
+  font-family: 'Source Sans Pro';
+  background:red;
+  margin:0;
+  color:white;
   display: grid;
   
   grid-template-areas:
     "header header header"
     "nav content side"
-    "footer footer footer"
+    "footer footer footer";
     
   grid-template-columns: 200px 1fr 200px;
   grid-template-rows: auto 1fr auto;
@@ -15,6 +19,7 @@
 
 header {
   grid-area: header;
+  background:#FFFFFF;
 }
   
 nav {
@@ -33,4 +38,11 @@ aside {
 
 footer {
   grid-area: footer;
+  background:#571212;
 }
+
+img { 
+    width:150px;
+    justify-self:center;
+}
+
