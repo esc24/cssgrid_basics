@@ -27,14 +27,14 @@ header {
 nav {
   grid-area: nav;
   margin-left:  0.5rem;
-  background: #FF9933
+  background: #FF9933;
   border-style: solid;
   border-color: black;
 }
 
 main {
   grid-area: content;
-  background: CC6600;
+  background: #CC6600;
   border-style: solid;
   border-color: black;
 }
@@ -42,6 +42,7 @@ main {
 aside {
   grid-area: side;
   margin-right: 0.5rem;
+  background: #996600;
   border-style: solid;
   border-color: black;
 }
@@ -50,6 +51,7 @@ footer {
   grid-area: footer;
   background:#571212;
   border-style: solid;
+  border-color: black;
 }
 
 a {
