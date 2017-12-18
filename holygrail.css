@@ -20,16 +20,20 @@
 header {
   grid-area: header;
   background: #FFFFFF;
+  border-style: solid;
 }
   
 nav {
   grid-area: nav;
   margin-left:  0.5rem;
   background: #FF9933
+  border-style: solid;
 }
 
 main {
   grid-area: content;
+  background: CC6600;
+  border-style: solid;
 }
 
 aside {
@@ -40,6 +44,7 @@ aside {
 footer {
   grid-area: footer;
   background:#571212;
+  border-style: solid;
 }
 
 a {
