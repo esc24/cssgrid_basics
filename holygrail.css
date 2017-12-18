@@ -23,6 +23,13 @@ header {
   border-style: solid;
   border-color: black;
 }
+
+header a {
+    text-decoration:none;
+    color:red;
+    font-size:1.8em;
+    font-weight:700;
+}
   
 nav {
   grid-area: nav;
@@ -71,12 +78,6 @@ footer {
   border-color: black;
 }
 
-a {
-    text-decoration:none;
-    color:red;
-    font-size:1.8em;
-    font-weight:700;
-}
 
 img { 
     width:150px;
